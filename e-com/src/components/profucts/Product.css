@@ -1,0 +1,41 @@
+.ProductContainer {
+    display: flex;
+    height: 100%;
+    padding: 20px;
+}
+
+.left-menu-section {
+    width: 20%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left-menu-section button {
+    border: none;
+    background: none;
+}
+
+.right-crad-section {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.right-crad-section .ProductDetails {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.ProductCard {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 0 10px black;
+}

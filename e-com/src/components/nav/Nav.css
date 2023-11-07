@@ -1,0 +1,29 @@
+.Navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 70px;
+    padding: 10px;
+}
+
+.Nav-Logo {
+    color: white;
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 20px;
+}
+
+.Nav-Links {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Nav-Links a {
+    text-decoration: none;
+    color: white;
+}
