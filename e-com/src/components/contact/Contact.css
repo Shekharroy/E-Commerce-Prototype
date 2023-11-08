@@ -1,0 +1,15 @@
+.ContactContainer {
+    text-align: center;
+
+}
+
+.ContactContainer h2 {
+    color: black;
+    text-decoration: underline;
+}
+
+.ContactContainer p {
+    text-align: justify;
+    text-indent: 10%;
+    padding: 20px;
+}

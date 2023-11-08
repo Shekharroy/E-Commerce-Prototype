@@ -1,0 +1,15 @@
+.HomeContainer {
+    text-align: center;
+
+}
+
+.HomeContainer h2 {
+    color: black;
+    text-decoration: underline;
+}
+
+.HomeContainer p {
+    text-align: justify;
+    text-indent: 10%;
+    padding: 20px;
+}

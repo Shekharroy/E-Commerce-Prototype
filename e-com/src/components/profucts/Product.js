@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Product.css";
 import axios from "axios";
+import {Link} from "react-router-dom";
 
 function Product() {
   const [state, setState] = useState([]);
@@ -57,7 +58,7 @@ function Product() {
                         <img src={elements.image} width="100%" height={200} alt="products-image"/>
                         <h4>{elements.title}</h4>
                         <p>${elements.price}</p>
-                        <button>Product Details</button>
+                       <Link to="/ProductDetails"><button>Product Details</button></Link> 
                     </div>
                 })
             }

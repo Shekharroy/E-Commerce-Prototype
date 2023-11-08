@@ -1,0 +1,15 @@
+.ServiceContainer {
+    text-align: center;
+
+}
+
+.ServiceContainer h2 {
+    color: black;
+    text-decoration: underline;
+}
+
+.ServiceContainer p {
+    text-align: justify;
+    text-indent: 10%;
+    padding: 20px;
+}

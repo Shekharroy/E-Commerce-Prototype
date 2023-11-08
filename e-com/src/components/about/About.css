@@ -1,0 +1,15 @@
+.AboutContainer {
+    text-align: center;
+
+}
+
+.AboutContainer h2 {
+    color: black;
+    text-decoration: underline;
+}
+
+.AboutContainer p {
+    text-align: justify;
+    text-indent: 10%;
+    padding: 20px;
+}

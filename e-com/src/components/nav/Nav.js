@@ -1,17 +1,18 @@
 import React from "react";
 import './Nav.css'
-import Home from "../home/Home";
+
+import { Link, NavLink } from "react-router-dom";
 
 function Nav() {
   return (
     <div className="Navbar">
       <div className="Nav-Logo">E-Commerce Product</div>
       <div className="Nav-Links">
-        <a href="/Home.js">Home</a>
-        <a href="http://">Product</a>
-        <a href="http://">Service</a>
-        <a href="http://">About</a>
-        <a href="http://">Contact</a>
+        <NavLink to="/" exact activeClassName='active'>Home</NavLink>
+        <NavLink to="/Product" activeClassName='active'>Product</NavLink>
+        <NavLink to="/Service" activeClassName='active'>Service</NavLink>
+        <NavLink to="/About" activeClassName='active'>About</NavLink>
+        <NavLink to="/Contact" activeClassName='active'>Contact</NavLink>
       </div>
     </div>
   );
